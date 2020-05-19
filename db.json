@@ -1,14 +1,15 @@
 {
   "tasks": [
     { "id": 5116145900191744, "device_id": "0001", "language": "fr-FR", "requested_at": "2020-4-29 10:08:33", "task_name" : "Get towels", "task_status" : "active", "department" : "housekeeping" },
-    { "id": 5116145900191744, "device_id": "0012", "language": "fr-FR", "requested_at": "2020-4-28 19:08:33", "task_name" : "Clean the room", "task_status" : "close", "department" : "housekeeping" },,
+    { "id": 5116145900191744, "device_id": "0012", "language": "fr-FR", "requested_at": "2020-4-28 19:08:33", "task_name" : "Clean the room", "task_status" : "close", "department" : "housekeeping" },
     { "id": 5116145900191744, "device_id": "0001", "language": "fr-FR", "requested_at": "2020-4-27 15:08:33", "task_name" : "Fix TV", "task_status" : "in_progress", "department" : "maintenance" }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+    { "id": 123, "first_name": "Bernard", "last_name" : "Dupont", "department": "housekeeping" },
+    { "id": 146, "first_name": "Bernard", "last_name" : "Dupont", "department": "kitchen" }
+  ]
 }
